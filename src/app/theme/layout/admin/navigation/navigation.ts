@@ -23,31 +23,50 @@ export const NavigationItems: NavigationItem[] = [
     children: [
       {
         id: 'company',
-        title: 'الشركات',
-        type: 'item',
+        title: 'بيانات النظام الرئيسية',
+        type: 'collapse',
         url: '/auth/signup',
         icon: 'feather icon-home',
-        classes: 'nav-item'
+        classes: 'nav-item',
+        children: [
+          {
+            id: 'company',
+            title: 'الشركات',
+            type: 'item',
+            url: '/auth/signup',
+            icon: 'feather icon-home',
+            classes: 'nav-item'
 
-      },
-      {
-        id: 'depart',
-        title: 'الأقسام',
-        type: 'item',
-        url: '/auth/signup',
-        icon: 'feather icon-home',
-        classes: 'nav-item'
-      }
-      ,
-      {
-        id: 'places',
-        title: 'اماكن العمل',
-        type: 'item',
-        url: '/auth/signup',
-        icon: 'feather icon-home',
-        classes: 'nav-item'
+          },
+          {
+            id: 'depart',
+            title: 'الأقسام',
+            type: 'item',
+            url: '/auth/signup',
+            icon: 'feather icon-home',
+            classes: 'nav-item'
+          }
+          ,
+          {
+            id: 'places',
+            title: 'اماكن العمل',
+            type: 'item',
+            url: '/auth/signup',
+            icon: 'feather icon-home',
+            classes: 'nav-item'
+          }
+          ,
+          {
+            id: 'places',
+            title: 'الهيكل الأداري',
+            type: 'item',
+            url: '/auth/signup',
+            icon: 'feather icon-home',
+            classes: 'nav-item'
+          }
+        ]
       }
     ]
   },
-  
+
 ];
