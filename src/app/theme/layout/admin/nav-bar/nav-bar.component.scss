@@ -1,0 +1,122 @@
+::ng-deep .pcoded-navbar {
+    right: 0px !important;
+}
+
+::ng-deep .pcoded-navbar .mobile-menu {
+    left: 10px !important;
+    transform: rotateY(180deg) !important;
+}
+
+::ng-deep .pcoded-navbar .header-logo {
+    flex-direction: row-reverse;
+}
+
+::ng-deep .pcoded-navbar .header-logo .b-brand {
+    direction: rtl;
+    margin-left: 2px;
+}
+
+::ng-deep .pcoded-navbar .header-logo .b-title {
+    padding-right: 5px !important;
+}
+
+::ng-deep .pcoded-navbar.navbar-collapsed~.pcoded-header,
+.pcoded-navbar.navbar-collapsed~.pcoded-main-container {
+    margin-left: unset !important;
+    margin-right: 80px;
+}
+
+::ng-deep .pcoded-header {
+    margin-right: 264px !important;
+    margin-left: unset !important;
+
+}
+
+::ng-deep .pcoded-main-container {
+    margin-left: unset !important;
+    margin-right: 80px;
+}
+
+::ng-deep .navbar-collapse {
+    flex-direction: row-reverse !important;
+}
+
+::ng-deep .navbar-collapse .ms-auto {
+    margin-right: auto !important;
+    margin-left: unset !important;
+}
+
+::ng-deep .navbar-collapse .me-auto {
+    margin-left: auto !important;
+    margin-right: unset !important;
+}
+
+::ng-deep .pcoded-header .me-auto .dropdown-menu {
+    margin-left: -200px !important;
+    text-align: end;
+}
+
+::ng-deep .dropdown-menu-end[data-bs-popper] {
+    right: unset !important;
+}
+
+::ng-deep .pcoded-header .dropdown .profile-notification .pro-head {
+    direction: rtl;
+    display: flex;
+    align-items: center;
+}
+
+::ng-deep .pcoded-header .dropdown .profile-notification .pro-head img {
+    margin-left: 6px;
+    margin-right: 1px;
+}
+
+::ng-deep .pcoded-header .dropdown .profile-notification .pro-head .dud-logout {
+    left: 0px !important;
+    right: unset !important;
+    transform: rotateY(180deg);
+}
+
+::ng-deep .pcoded-header .dropdown .profile-notification .pro-body li a {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+
+::ng-deep .pcoded-header .dropdown .profile-notification .pro-body li a i {
+    margin-right: unset !important;
+    margin-left: 10px !important;
+}
+
+::ng-deep .pcoded-header .main-search.open .input-group .form-control {
+    direction: rtl;
+}
+
+::ng-deep .pcoded-navbar .pcoded-inner-navbar li>a {
+    display: flex !important;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+::ng-deep .pcoded-navbar .pcoded-inner-navbar li>a>.pcoded-micon+.pcoded-mtext {
+    position: unset !important;
+    font-size: 18px;
+}
+
+::ng-deep .pcoded-navbar .pcoded-inner-navbar li.pcoded-menu-caption {
+    text-align: center;
+    font-size: 18px;
+}
+
+::ng-deep .nav-item .search-close {
+    position: absolute;
+    top: 10px;
+    left: 13px;
+}
+::ng-deep .pcoded-navbar .pcoded-inner-navbar li > a > .pcoded-micon {
+    margin-right:20px !important
+}
+::ng-deep .pcoded-navbar .pcoded-inner-navbar li.pcoded-hasmenu > a:after {
+    transform: rotateY(180deg) ;
+}
